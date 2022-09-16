@@ -1,0 +1,15 @@
+{
+  "name": "bootstrap-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-reduce": "purgecss --css css/custom.css --content index.html -o css/reducido.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.1"
+  }
+}
